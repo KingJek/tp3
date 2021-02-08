@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 h1 {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Roboto', Sans-serif;
+  color: white;
+  font-size: 35px;
 }
 
 li {
   font-family: Georgia;
+  color: white;
+}
+
+p {
+  color: white;
 }
 
 ul ul {
@@ -18,9 +25,27 @@ ul ul {
 
 #ingredients li span {
   font-style: italic;
-  color: #999;
+  color: #ADD8E6;
 }
 
-#equipment li:nth-child(3) {
+#ingredients li:nth-child(1){
   color: red;
+}
+
+#equipment li:nth-child(1) {
+  color: red;
+}
+
+h4 {
+  color: #a9a9a9;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+body{
+  background-color: #2a2a2a;
+}
+
+a {
+  color: white;
 }
